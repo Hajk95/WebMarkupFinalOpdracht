@@ -21,7 +21,6 @@ section{
 	background-color: black;
 	font-family:Impact;
 	color: #003399;
-	
 }
 
 article{
@@ -32,11 +31,15 @@ article{
 	background-color: #ccff99;
 	color: #000066;
 }
-
 nav {
 	font-family: Verdana;
 	font-size: 12px;
 	color: #660066;
-	
+	float: right;
+}
+@media screen and (max-width: 1280px) {
+	.final{
+		display: grid;
+	}
 }
 /* ik probeer zo veel mogelijk kleuren te vinden*/
