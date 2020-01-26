@@ -58,7 +58,11 @@ nav {
 button:hover{
 	color:red;
 }
-a.highlight:hover {
+img{
+	max-width: 800px;
+	max-height: 600px;
+}
+a.overig:hover {
   color: #ff0000;
 }
 /* CSS validator lijkt het niet te doen, over de Quota*/
