@@ -1,6 +1,10 @@
 body{
-	font-family:"Comic Sans MS";
+	font-family: "Comic Sans MS";
 	color: #ff00ff;
+	font-size: 1em;
+}
+header{
+	font-family: "Times New Roman", Times, serif;
 }
 h1{
 	color: #33cccc;
@@ -21,6 +25,7 @@ section{
 	background-color: black;
 	font-family:Impact;
 	color: #003399;
+	font-size: 2em;
 }
 
 article{
@@ -33,12 +38,12 @@ article{
 }
 nav {
 	font-family: Verdana;
-	font-size: 12px;
+	font-size: 4em;
 	color: #660066;
 	float: right;
 }
 @media screen and (max-width: 1280px) {
-	.final{
+	.final + p{
 		display: grid;
 		grid-column-gap: 20px;
 		grid-row-gap: 20px;
@@ -46,5 +51,11 @@ nav {
 		grid-column-end: 5;
 		height: 200px;
 	}
+}
+button:hover{
+	color:red;
+}
+a.highlight:hover {
+  color: #ff0000;
 }
 /* ik probeer zo veel mogelijk kleuren te vinden*/

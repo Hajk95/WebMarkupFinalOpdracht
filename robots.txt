@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /forbidden
+
+SITEMAP: https://www.taekwon.nl/wedstrijdtraining-2/sitemap.xml
