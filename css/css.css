@@ -1,0 +1,42 @@
+body{
+	font-family:"Comic Sans MS";
+	color: #ff00ff;
+}
+h1{
+	color: #33cccc;
+}
+h2{
+	color: #ffffff;
+}
+#outplay {
+	min-height: 100%;
+	min-width: 100%;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background-color: #66ccff;
+}
+section{
+	background-color: black;
+	font-family:Impact;
+	color: #003399;
+	
+}
+
+article{
+	font-family: Arial;
+	font-size: 3em;
+	margin: 1px;
+	padding: 5px;
+	background-color: #ccff99;
+	color: #000066;
+}
+
+nav {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #660066;
+	
+}
+/* ik probeer zo veel mogelijk kleuren te vinden*/
