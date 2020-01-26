@@ -28,7 +28,7 @@ section{
 	font-size: 2em;
 }
 
-article{
+article > p{
 	font-family: Arial;
 	font-size: 3em;
 	margin: 1px;
@@ -52,10 +52,13 @@ nav {
 		height: 200px;
 	}
 }
+@media screen and (max-device-width: 420px){
+	width:420px;
+}
 button:hover{
 	color:red;
 }
 a.highlight:hover {
   color: #ff0000;
 }
-/* ik probeer zo veel mogelijk kleuren te vinden*/
+/* CSS validator lijkt het niet te doen, over de Quota*/
